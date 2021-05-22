@@ -13,6 +13,6 @@ serial.redirectToUSB()
 basic.forever(function () {
     if (log == 1) {
         list.push(input.temperature())
-        basic.pause(1000)
+        basic.pause(1200)
     }
 })
